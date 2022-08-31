@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(14, 16, 36);
+    color: white;
+}
+
+.inicio {
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+.imagem img {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.conteudo {
+    margin: auto;
+
+}
+
+.formulario {
+    justify-content: start;
+    display: flex;
+}
+
+button {
+    padding: 15px 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.entrar {
+    background-color: green;
+}
+
+.sair {
+    background-color: rgb(184, 23, 23);
+    color: white;
+}
+
+.input {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 2px;
+    margin-right: 10px;
+}
