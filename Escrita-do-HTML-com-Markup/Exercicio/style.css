@@ -20,12 +20,12 @@ body {
 
 .conteudo {
     margin: auto;
-
 }
 
 .formulario {
     justify-content: start;
     display: flex;
+    margin-top: 30px;
 }
 
 button {
@@ -50,4 +50,24 @@ button {
     border-radius: 5px;
     padding: 15px 2px;
     margin-right: 10px;
+}
+
+.boasVindas {
+    display: flex;
+    justify-content: center;
+}
+
+.bemvindo {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.changer {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.titulo {
+    text-align: center;
+    text-justify: auto;
 }

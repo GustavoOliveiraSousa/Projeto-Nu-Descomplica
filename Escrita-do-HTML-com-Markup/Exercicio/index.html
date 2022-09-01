@@ -16,14 +16,19 @@
                 alt="Imagem de Estudo" height="350px">
         </div>
 
-        <div class="conteudo">
+        <div class="conteudo" id="conteudo">
             <h1 class="titulo">Curso de Introdução ao Desenvolvimento Web</h1>
+            <div class="boasVindas">
+                <h1 class="bemvindo" id="bemvindo" style="display:none">Seja Bem-Vindo,&nbsp;</h1>
+                <h1 class="changer" id="changer"></h1>
+            </div>
         </div>
 
         <div class="formulario">
-            <input class="input" value="oi" type="text" name="" id="input" placeholder="Seu nome">
-            <button class="entrar">Entrar</button>
-            <button class="sair">Sair</button>
+            <input class="input" value="" type="text" name="" id="input" placeholder="Seu nome">
+
+            <button class="entrar" id="entrar" onclick="nome()">Entrar</button>
+            <button class="sair" id="sair" style="display:none" onclick="sair()">Sair</button>
         </div>
     </section>
     <script src="./script.js"></script>
