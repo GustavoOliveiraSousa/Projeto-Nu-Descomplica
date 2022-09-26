@@ -61,6 +61,68 @@
     <br>
 
     <section>
+        <h2>Orçamento</h2>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Dados da viagem</legend>
+                <label>Nome: </label><br>
+                <input type="text" required name="nome"><br>
+
+                <label>Email:</label><br>
+                <input type="email" required name="email"><br>
+
+                <label>Data de ida</label><br>
+                <input type="date" required name="DataIda"><br>
+
+                <label>Data de volta</label><br>
+                <input type="date" required name="DataVolta"><br>
+
+                <label>Quantidade de pessoas:</label><br>
+                <input type="number" required name="QtdPessoas"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+                <label>
+                    <input type="checkbox" name="Passagens" value="passagens">Compra de passagens
+                </label>
+                <label>
+                    <input type="checkbox" name="Hospedagem" value="hospedagem">Reserva de hospedagem
+                </label>
+                <label>
+                    <input type="checkbox" name="Veiculos" value="veiculos">Aluguel de veículos
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <input type="radio" name="FormaPagamento" value="CartaoCredito">Cartão de crédito
+                </label>
+                <label>
+                    <input type="radio" name="FormaPagamento" value="Boleto">Boleto
+                </label>
+                <label>
+                    <input type="radio" name="FormaPagamento" value="PIX">PIX
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha o prazo para pagamento</legend>
+                <select name="PrazoPagamento">
+                    <option value="avista">A vista</option>
+                    <option value="5x" selected>5x sem juros</option>
+                    <option value="10x">10x sem juros</option>
+                </select>
+            </fieldset>
+
+            <label>Comentário: </label><br>
+            <textarea name="comentario" cols="26" rows="5"></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <!-- <section>
         <h2>Taxas e Serviços</h2>
         <p>veja nossas taxas e Serviços</p>
         <table border="2">
@@ -86,7 +148,7 @@
                 </tr>
             </tbody>
         </table>
-    </section>
+    </section> -->
     <footer>
         Powered By Gustavo O. Sousa
     </footer>
