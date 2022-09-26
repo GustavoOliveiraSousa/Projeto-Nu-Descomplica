@@ -42,12 +42,38 @@ function Pessoa(props) {
   }
 }
 
+const ListaItem = (props) => {
+  return (
+    <li>{props.label}</li>
+  )
+}
+
+const Lista = () => {
+
+  const passos = [
+    "Configurar projeto",
+    "Embedar React",
+    "Criar components",
+    "Escrever testes"
+  ];
+
+
+  return (
+    <ul>
+      {passos.map((valor, index) => (
+        <ListaItem key={index} label={valor} />
+      ))}
+    </ul>
+  )
+}
+
 function App() {
 
   const labelBotao = 'Entre aqui!'
   return (
     <div className="App">
       <Titulo />
+      <Lista />
       <Pessoa idade={19} />
       <Pessoa idade={14} />
       <Pessoa idade={9} />
