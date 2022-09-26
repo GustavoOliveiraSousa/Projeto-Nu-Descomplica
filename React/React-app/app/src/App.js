@@ -1,13 +1,30 @@
 import './App.css';
 
+const Titulo = () => (
+  <h2>
+    <span>Olá, </span>
+    <strong>Mundo</strong>
+    !!!
+  </h2>
+)
+
+function Botao(props) {
+  return (
+    <button>{props.label}</button>
+  )
+}
+
 function App() {
+
+  const labelBotao = 'Entre aqui!'
   return (
     <div className="App">
-      <h1 className='App-header'>
-        <span>Olá </span>
-        <strong>Mundo</strong>
-        !!!
-      </h1>
+      <Titulo />
+      <article>
+        <h2>Subtitulo</h2>
+        <p>abcd abcd abcd abcd abcd </p>
+      </article>
+      <Botao label={`${labelBotao} !!!`} />
     </div>
   );
 }
