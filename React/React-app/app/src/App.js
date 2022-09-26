@@ -1,7 +1,7 @@
 import './App.css';
 
 const Titulo = () => (
-  <h2>
+  <h2 className='App-header'>
     <span>Olá, </span>
     <strong>Mundo</strong>
     !!!
