@@ -4,13 +4,11 @@ body {
     font-size: 15px;
     line-height: 2.2vm;
     color: gray;
-    margin: 0;
+    margin: 0 auto;
 }
 
 header {
     color: #fce7c7;
-    margin-bottom: 220px;
-    margin-bottom: 75px;
     /* Chrome and Opera */
 }
 
@@ -80,19 +78,18 @@ table tr:nth-child(odd) {
 }
 
 .imagem {
+    background-image: url('./img/Background-mar.jpg');
     position: absolute;
     background-color: #00f7ff;
-    filter: blur(2px);
+    filter: blur(1px);
     -webkit-backdrop-filter: blur(1px);
     /* Safari 9+ */
     backdrop-filter: blur(1px);
     width: 100%;
-    height: 150px;
-
+    height: 125px;
 }
 
 .texto {
-    margin: 0rem auto;
     position: relative;
     text-align: center;
     min-width: 100px;
@@ -103,6 +100,10 @@ table tr:nth-child(odd) {
     display: inline-block;
 }
 
+.pacotes {
+    margin-top: 50px;
+}
+
 /* .pacotes .figuras {
     text-align: center;
 }
@@ -110,3 +111,183 @@ table tr:nth-child(odd) {
 .pacotes .videos {
     text-align: center;
 } */
+
+.bg_video {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.apresentacao {
+    width: 100%;
+    display: flex;
+}
+
+.textoo {
+    width: 80%;
+    flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 250px) {
+    .imagem {
+        background-image: url("./img/mar-p.jpg");
+        height: 120px;
+    }
+
+    .pacotes {
+        margin-top: 25px;
+    }
+
+    .texto {
+        font-size: clamp(2em, 2em + 1vw, 1.5em);
+    }
+
+    .bg_video {
+        width: 190px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .textoo {
+        width: 100%;
+        flex-direction: row;
+        text-align: justify;
+    }
+
+
+    .apresentacao {
+        display: block;
+    }
+
+    h2 {
+        padding: 0px;
+        font-size: 15px;
+        margin-top: 0px;
+        text-align: start;
+    }
+
+    section,
+    footer {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width: 250px) and (max-width: 280px) {
+    .imagem {
+        background-image: url('./img/mar-p.jpg');
+        height: 115px;
+    }
+
+    .pacotes {
+        margin-top: 0px;
+    }
+
+    .texto {
+        font-size: clamp(2em, 2em + 1vw, 1.5em);
+    }
+
+    .bg_video {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .textoo {
+        width: 100%;
+        flex-direction: row;
+        text-align: justify;
+    }
+
+
+    .apresentacao {
+        display: block;
+    }
+
+    h2 {
+        padding: 0px;
+        font-size: 15px;
+        margin-top: 25px;
+        text-align: start;
+    }
+
+    section,
+    footer {
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 430px) {
+    .imagem {
+        background-image: url('./img/Background-mar.jpg');
+        height: 75px;
+    }
+
+    .pacotes {
+        margin-top: 0px;
+    }
+
+    .texto {
+        font-size: clamp(2em, 2em + 1vw, 1.5em);
+    }
+
+    .bg_video {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .textoo {
+        width: 100%;
+        flex-direction: row;
+        text-align: justify;
+    }
+
+    .apresentacao {
+        display: block;
+    }
+
+    h2 {
+        padding: 0px;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    section,
+    footer {
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .imagem {
+        background-image: url('./img/Background-mar.jpg');
+        height: 75px;
+    }
+
+    .pacotes {
+        margin-top: 0px;
+    }
+
+    .texto {
+        font-size: 45px;
+    }
+
+    .bg_video {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        padding: 0px;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    section,
+    footer {
+        margin: 20px;
+    }
+}
