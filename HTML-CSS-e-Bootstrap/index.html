@@ -7,15 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sete Mares Viagens</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
-
 <body>
     <header class="container-fluid bg-info text-center g-0">
-        </div>
         <nav class="navbar navbar-expand-lg bg-info ">
             <div class="container-fluid">
                 <a class="navbar-brand logo" href="#"><img src="./img/logo/logo.png" alt="logo" width="50px"></a>
@@ -32,12 +29,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Taxas e Serviços</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Contato com o DEV
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu bg-light">
                                 <li><a class="dropdown-item" href="https://github.com/GustavoOliveiraSousa"
                                         target="_blank" rel="noopener">GitHub</a>
                                 </li>
@@ -58,58 +55,33 @@
         </nav>
 
         <div class="bg-info">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true" data-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                        aria-label="Slide 3"></button>
-                </div>
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="5000">
-                        <img src="./img/src/img1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-item active">
+                        <img src="./img/carrosel/img1.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h1>Praias paradisíacas</h1>
+                            <h1>Lugares paradisíacos</h1>
                         </div>
                     </div>
-                    <div class="carousel-item" data-interval="500">
-                        <img src="./img/src/img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-item">
+                        <img src="./img/carrosel/img2.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>Pontos turisticos de tirar o fôlego</h1>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/src/img3.jpg" class="d-block w-100" alt="...">
+                        <img src="./img/carrosel/img3.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>Praias de águas cristalinas</h1>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-
-            <script>
-                $('.carousel').attr(
-                    "data-interval", "100"
-                );
-            </script>
-
-            <!-- <h1 class="text-center">Embarque na viagem dos seus sonhos!
-            </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat suscipit numquam animi fugiat commodi
-                adipisci earum natus error ad quaerat at delectus iure, eius quae sit eum? Doloremque, rem voluptatum.
-            </p> -->
         </div>
 
     </header>
@@ -118,44 +90,158 @@
             <div>
                 <h2 class="text-center">Conheça nossos pacotes</h2>
                 <p class="text-justify">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae debitis et vitae unde quam nesciunt,
-                    porro
-                    magni
-                    deleniti accusamus fugit maiores, libero commodi, rem atque. Optio dolores placeat et
-                    necessitatibus.
-                    <br>
-                    <a href="#">link</a>
-
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </p>
             </div>
             <hr>
         </div>
 
-
-
-        <div class="row">
-            <figure class="col text-center">
-                <img src="https://www.fashionbubbles.com/wp-content/uploads/2020/12/ilhas-maldivas.png" width="200px"
-                    height="200px" alt="Imagem aérea de quiosques nas Ilhas Maldivas">
-                <figcaption>Ilhas Maldivas</figcaption>
-            </figure>
-            <figure class="col text-center">
-                <img src="https://revistaazul.voeazul.com.br/wp-content/uploads/2022/01/Noronha_DESTAQUE1.jpg"
-                    width="200px" height="200px" alt="Imagem aérea do arquipélago Fernando de Noronha">
-                <figcaption>Arquipélago Fernando de Noronha</figcaption>
-            </figure>
-            <figure class="col text-center">
-                <img src="https://liberal.com.br/wp-content/uploads/2021/09/Caribe-3.jpg" width="200px" height="200px"
-                    alt="Imagem aérea de uma praia do Caribe">
-                <figcaption>Caribe</figcaption>
-            </figure>
-            <figure class="col text-center">
-                <img src="https://topbiologia.com/wp-content/uploads/2015/06/praia-de-areia-preta-havai-21.jpg"
-                    width="200px" height="200px" alt="Imagem  de uma praia de areia negra no Havaí">
-                <figcaption>Havaí: Punalu’u Beach, praia de areia negra</figcaption>
-            </figure>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pacotes/Praia do naufrágio.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Praia do Naufrágio</h5>
+                        <p class="card-text text-start">
+                            Beleza intocável: 10 <br>
+                            Isolamento: 8 <br>
+                            Qualidade da água e da areia: 8 <br>
+                            Dias de sol no ano: 275 <br>
+                            Temperatura média: 19°C <br></p>
+                        <h1 class="card-subtitle text-muted">R$ 5.000,00
+                        </h1>
+                        <p class="card-subtitle text-muted">Em até 24 vezes</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Zakynthos, Grécia
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pacotes/Hidden Beach.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hidden Beach</h5>
+                        <p class="card-text text-start">
+                            Beleza intocável: 9 <br>
+                            Isolamento: 7 <br>
+                            Qualidade da água e da areia: 8 <br>
+                            Dias de sol no ano: 231 <br>
+                            Temperatura média: 25°C <br>
+                        </p>
+                        <h1 class="card-subtitle text-muted">R$ 5.000,00
+                        </h1>
+                        <p class="card-subtitle text-muted">Em até 24 vezes</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">El Nido, Filipinas</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pacotes/Noronha_DESTAQUE1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Praia do Sancho</h5>
+                        <p class="card-text text-start">
+                            Beleza intocável: 10 <br>
+                            Isolamento: 10 <br>
+                            Qualidade da água e da areia: 10 <br>
+                            Dias de sol no ano: 268 <br>
+                            Temperatura média: 27°C <br>
+                        </p>
+                        <h1 class="card-subtitle text-muted">R$ 5.000,00
+                        </h1>
+                        <p class="card-subtitle text-muted">Em até 24 vezes</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Fernando de Noronha, Brasil
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pacotes/Tulum-Cancun-Mexico.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Praia do Tulum</h5>
+                        <p class="card-text text-start">
+                            Beleza intocável: 9 <br>
+                            Isolamento: 8 <br>
+                            Qualidade da água e da areia: 10 <br>
+                            Dias de sol no ano: 175 <br>
+                            Temperatura média: 28°C <br>
+                        </p>
+                        <h1 class="card-subtitle text-muted">R$ 5.000,00
+                        </h1>
+                        <p class="card-subtitle text-muted">Em até 24 vezes</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Quintana Roo, México
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pacotes/Maya Bay.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maya Bay</h5>
+                        <p class="card-text text-start">
+                            Beleza intocável: 8 <br>
+                            Isolamento: 9 <br>
+                            Qualidade da água e da areia: 10 <br>
+                            Dias de sol no ano: 352 <br>
+                            Temperatura média: 28°C <br>
+                        </p>
+                        <h1 class="card-subtitle text-muted">R$ 5.000,00
+                        </h1>
+                        <p class="card-subtitle text-muted">Em até 24 vezes</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Phi Phi, Tailândia
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/pacotes/Praia do Cumbuco.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Praia de Jericoacoara</h5>
+                        <p class="card-text text-start">
+                            Beleza intocável: 8 <br>
+                            Isolamento: 7 <br>
+                            Qualidade da água e da areia: 10 <br>
+                            Dias de sol no ano: 352 <br>
+                            Temperatura média: 28°C <br>
+                        </p>
+                        <h1 class="card-subtitle text-muted">R$ 5.000,00
+                        </h1>
+                        <p class="card-subtitle text-muted">Em até 24 vezes</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Jericoacoara, Brasil
+                        </small>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <br>
+    <hr>
+    <br>
 
     <section class="container-fluid bg-info text-center p-2">
         <h2>Taxas e Serviços</h2>
@@ -277,8 +363,21 @@
     <footer class="container-fluid bg-info text-center">
         Powered By Gustavo O. Sousa
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+    <script>
+        // Handle Bootstrap carousel slide event
+        $('.carousel').carousel({
+            interval: 3000
+        });
+    </script>
 </body>
 
 </html>
