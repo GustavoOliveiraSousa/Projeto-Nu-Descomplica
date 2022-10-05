@@ -120,6 +120,10 @@
                         <p class="card-subtitle text-muted">Em até 24 vezes</p>
                         <a href="#" class="btn btn-primary" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">Reservar</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">
@@ -342,33 +346,6 @@
                 </div>
             </fieldset>
 
-            <!-- <fieldset>
-                <legend>Escolha a forma de pagamento</legend>
-                <label>
-                    <input type="radio" name="FormaPagamento" value="CartaoCredito">Cartão de crédito
-                </label>
-                <label>
-                    <input type="radio" name="FormaPagamento" value="Boleto">Boleto
-                </label>
-                <label>
-                    <input type="radio" name="FormaPagamento" value="PIX">PIX
-                </label>
-            </fieldset> -->
-
-            <!-- <fieldset>
-                <legend>Escolha o prazo para pagamento</legend>
-                <select name="PrazoPagamento">
-                    <option value="avista">A vista</option>
-                    <option value="5x" selected>5x sem juros</option>
-                    <option value="10x">10x sem juros</option>
-                </select>
-            </fieldset> -->
-
-            <!-- <fieldset>
-                <legend>Comentário: </legend>
-                <textarea name="comentario" cols="26" rows="5"></textarea><br>
-            </fieldset> -->
-
             <button class="btn bg-info">Enviar</button>
         </form>
         <br>
@@ -377,13 +354,9 @@
         Powered By Gustavo O. Sousa
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <script>
         // Handle Bootstrap carousel slide event
@@ -391,8 +364,10 @@
             interval: 3000
         });
     </script>
+
 </body>
 
+<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -404,8 +379,8 @@
                 Produto adicionado ao carrinho
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar a comprar</button>
-                <a href="checkout.html" type="button" class="btn btn-success">Finalizar compra</button>
+                <a type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continuar a comprar</a>
+                <a href="checkout.html" class="btn btn-primary">Finalizar compra</a>
             </div>
         </div>
     </div>
