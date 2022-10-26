@@ -42,3 +42,11 @@ switch (diaSem) {
         break;
 }
 //---------------------------------------------------------------------------------------------
+
+var carro = [{ modelo: "HB20", marca: "Uknown", ano: 2020 },
+{ modelo: "Compass", marca: "Jeep", ano: 2021 },
+]
+for (let caracteristica in carro) {
+    console.log(carro[caracteristica]);
+
+}
