@@ -18,3 +18,5 @@ for (let i = 0; i < valores.length; i++) {
 }
 var media = aux / valores.length;
 console.log(media);
+
+//---------------------------------------------------------------------------------------------
