@@ -48,5 +48,8 @@ var carro = [{ modelo: "HB20", marca: "Uknown", ano: 2020 },
 ]
 for (let caracteristica in carro) {
     console.log(carro[caracteristica]);
-
 }
+for (let c of carro) {
+    console.log(c.marca);
+}
+//---------------------------------------------------------------------------------------------
