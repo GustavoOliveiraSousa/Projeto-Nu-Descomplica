@@ -49,3 +49,19 @@ for (let index = 0; index < arrayoriginal.length; index++) {
     }
 }
 console.log(arrayPar);
+
+//---------------------------------------------------------------------------------------------
+
+var arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+arr2.splice(2, 2);
+console.log(arr2);
+
+var nomes = ["Maria", "João", "Gustavo"];
+console.log(nomes);
+var novos = nomes.splice(1, 1, "Guilherme")
+console.log(nomes);
+
+var pais = ["Brasil", "Argentina", "Bolivia"];
+console.log(pais);
+pais.unshift("Paraguai");
+console.log(pais);
