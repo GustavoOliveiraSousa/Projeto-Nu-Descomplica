@@ -26,6 +26,20 @@ h6 {
     margin: auto;
 }
 
+.neon {
+    line-height: 2;
+    color: #ff7301;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 35px #ff7301,
+            0 0 40px #f43f00,
+            0 0 55px #ff5101;
+    }
+}
+
 /* 
 @media screen and (max-width: 111px) {
 
