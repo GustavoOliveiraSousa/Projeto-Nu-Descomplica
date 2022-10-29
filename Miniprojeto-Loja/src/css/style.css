@@ -17,6 +17,10 @@ h5 {
     color: white;
 }
 
+.carousel-inner>.carousel-item>img {
+    margin: auto;
+}
+
 @media screen and (max-width: 111px) {
 
     .logo {
