@@ -17,11 +17,6 @@ h5 {
     color: white;
 }
 
-.nav-item,
-.navbar-nav {
-    color: white;
-}
-
 @media screen and (max-width: 111px) {
 
     .logo {
