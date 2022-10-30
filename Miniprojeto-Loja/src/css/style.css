@@ -7,6 +7,7 @@ body {
     background-size: cover;
 }
 
+s,
 a,
 p,
 h1,
@@ -14,8 +15,51 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    color: white
+h6,
+span {
+    color: white;
+}
+
+span {
+    font-size: small;
+}
+
+.borda {
+    /* border: 5px solid #7fff00; */
+    /* box-shadow: 0px 0px 20px #7fff00; */
+    border: #ff7301 3px solid;
+    border-radius: 15px;
+    box-shadow: inset 0 0 25px #ff7301, 0 0 25px 0 #ff7301;
+}
+
+.col .borda .card {
+    border-radius: 15px;
+}
+
+.preco {
+    font-size: 20px;
+    color: #ff7301;
+}
+
+.precoMais {
+    font-size: 20px;
+    color: #7fff00;
+}
+
+.frete {
+    color: #ff7301;
+}
+
+.negrito {
+    font-weight: 700;
+}
+
+.card-body>hr {
+    color: white;
+}
+
+.col>.borda>.card {
+    background-color: black;
 }
 
 .navbar-nav>.nav-item>a {
