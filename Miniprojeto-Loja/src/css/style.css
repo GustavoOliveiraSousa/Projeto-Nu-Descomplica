@@ -80,10 +80,32 @@ span {
     animation: neon 1s ease-in-out infinite alternate;
 }
 
+.neon-white {
+    line-height: 2;
+    color: #fcfcfc;
+    animation: neon-white 3s ease-in-out infinite alternate;
+}
+
 .blur {
     background-color: #001220;
     opacity: 99%;
     box-shadow: 5px 5px 5px #ff7301;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.inversor {
+    filter: invert(100%);
+}
+
+.card-footer .d-inline-block a {
+    color: transparent;
+}
+
+.card-subtitle {
+    font-weight: 900;
 }
 
 @keyframes neon {
@@ -91,6 +113,14 @@ span {
         text-shadow: 0 0 35px #ff7301,
             0 0 40px #f43f00,
             0 0 55px #ff5101;
+    }
+}
+
+@keyframes neon-white {
+    from {
+        text-shadow: 0 0 35px white,
+            0 0 40px whitesmoke,
+            0 0 55px wheat;
     }
 }
 
