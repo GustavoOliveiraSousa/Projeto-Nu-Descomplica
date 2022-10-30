@@ -80,6 +80,12 @@ span {
     animation: neon 1s ease-in-out infinite alternate;
 }
 
+.blur {
+    background-color: #001220;
+    opacity: 99%;
+    box-shadow: 5px 5px 5px #ff7301;
+}
+
 @keyframes neon {
     from {
         text-shadow: 0 0 35px #ff7301,
