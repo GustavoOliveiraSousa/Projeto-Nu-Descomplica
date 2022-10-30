@@ -70,6 +70,10 @@ span {
     margin: auto;
 }
 
+.modal-header h1 {
+    color: black;
+}
+
 .neon {
     line-height: 2;
     color: #ff7301;
