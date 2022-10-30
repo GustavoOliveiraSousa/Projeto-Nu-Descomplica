@@ -30,9 +30,16 @@ span {
     border: #ff7301 3px solid;
     border-radius: 15px;
     box-shadow: inset 0 0 25px #ff7301, 0 0 25px 0 #ff7301;
+    /* width: 102%; */
+    transform: scale(1.05);
+    font-size: 15.5px;
 }
 
 .col .borda .card {
+    border-radius: 15px;
+}
+
+.borda-imagem {
     border-radius: 15px;
 }
 
@@ -72,6 +79,10 @@ span {
 
 .modal-header h1 {
     color: black;
+}
+
+.col h2 {
+    color: #7fff00;
 }
 
 .neon {
