@@ -224,7 +224,7 @@ ol {
 }
 
 
-@media screen and (max-width: 1749px) {
+/* @media screen and (max-width: 1749px) {
 
     html {
         font-size: 1rem;
@@ -250,311 +250,242 @@ ol {
     .card-body .justify {
         min-height: 175px;
     }
+} */
 
-}
+/* @media screen and (max-width: 1749px) {
 
-/* @media screen and (max-width: 1301px) {
-
-    .row .card-body {
-        min-height: 400px;
-        justify-content: center;
-    }
-
-    .card-body .card-subtitle {
-        margin-top: 50px;
-    }
-
-    .card-body .justify {
-        min-height: 200px;
+    html {
+        font-size: 1rem;
     }
 
     header .margem-nav {
-        margin-top: -75px;
+        margin-top: -30px;
     }
 
-    html {
-        font-size: 1rem;
+    .card-body .margem-produto {
+        min-height: 130px;
     }
-} */
 
-/* @media screen and (max-width: 1254px) {
+    .img-sobre-nos {
+        width: 150px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
 
     .row .card-body {
-        min-height: 400px;
+        min-height: 200px;
         justify-content: center;
     }
 
     .card-body .card-subtitle {
         margin-top: 50px;
+    }
+
+    .card-body .justify {
+        min-height: 175px;
+    }
+} */
+
+/* @media screen and (max-width: 1305px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    header .margem-nav {
+        margin-top: -25px;
+    }
+
+    .card-body .margem-produto {
+        min-height: 130px;
+    }
+
+    .img-sobre-nos {
+        width: 150px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 75px;
     }
 
     .card-body .justify {
         min-height: 200px;
     }
+} */
 
-    body .margem-nav {
-        margin-top: 145px;
-    }
+/* @media screen and (max-width: 1166px) {
 
     html {
         font-size: 1rem;
     }
-} */
 
-/* @media screen and (max-width: 1174px) {
+    header .margem-nav {
+        margin-top: -25px;
+    }
+
+    .card-body .margem-produto {
+        min-height: 145px;
+    }
+
+    .img-sobre-nos {
+        width: 150px;
+        margin: auto;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
 
     .row .card-body {
-        min-height: 400px;
+        min-height: 100px;
         justify-content: center;
     }
 
     .card-body .card-subtitle {
-        margin-top: 50px;
+        margin-top: 25px;
     }
 
     .card-body .justify {
-        min-height: 225px;
+        min-height: 235px;
+    }
+} */
+
+/* @media screen and (max-width: 1084px) {
+
+    html {
+        font-size: 1rem;
     }
 
-    body .margem-nav {
-        margin-top: 145px;
+    header .margem-nav {
+        margin-top: 0px;
     }
+
+    .card-body .margem-produto {
+        min-height: 145px;
+    }
+
+    .img-sobre-nos {
+        width: 150px;
+        margin: auto;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 250px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+} */
+
+/* @media screen and (max-width: 992px) {
 
     html {
         font-size: 0.9rem;
     }
-} */
 
-/* @media screen and (max-width: 1046px) {
-
-    .row .card-body {
-        min-height: 200px;
-        justify-content: end;
+    header .margem-nav {
+        margin-top: 75px;
     }
 
-    .card-body .card-subtitle {
-        margin-top: 25px;
+    div div .text-start p {
+        display: none;
     }
 
-    .card-body .justify {
-        height: 100px;
+    .card-body .margem-produto {
+        min-height: 145px;
     }
 
-    body .margem-nav {
-        margin-top: 145px;
+    .img-sobre-nos {
+        width: 100px;
     }
 
-    html {
-        font-size: 0.7rem;
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
     }
-} */
-
-/* @media screen and (max-width: 940px) {
-
-    .row .card-body {
-        min-height: 200px;
-        justify-content: end;
-    }
-
-    .card-body .card-subtitle {
-        margin-top: 25px;
-    }
-
-    .card-body .justify {
-        height: 100px;
-    }
-
-    .container-fluid .input-group .form-control {
-        margin: 0 auto;
-        max-width: 50%;
-    }
-
-    .card-footer .d-inline-block a img {
-        width: 25px;
-    }
-
-    body .margem-nav {
-        margin-top: 145px;
-    }
-
-    html {
-        font-size: 0.7rem;
-    }
-} */
-
-/* @media screen and (max-width: 913px) {
-
-    .row .card-body {
-        min-height: 200px;
-        justify-content: end;
-    }
-
-    .card-body .card-subtitle {
-        margin-top: 20px;
-    }
-
-    .card-body .justify {
-        height: 125px;
-    }
-
-    .container-fluid .input-group .form-control {
-        margin: 0 auto;
-        max-width: 50%;
-    }
-
-    .card-footer .d-inline-block a img {
-        width: 25px;
-    }
-
-    body .margem-nav {
-        margin-top: 145px;
-    }
-
-    html {
-        font-size: 0.7rem;
-    }
-} */
-
-/* @media screen and (max-width: 825px) {
-
-    .row .card-body {
-        min-height: 230px;
-        justify-content: end;
-    }
-
-    .card-body .card-subtitle {
-        margin-top: 20px;
-    }
-
-    .card-body .justify {
-        height: 145px;
-    }
-
-    .container-fluid .input-group .form-control {
-        margin: 0 auto;
-        max-width: 50%;
-    }
-
-    .card-footer .d-inline-block a img {
-        width: 25px;
-    }
-
-    body .margem-nav {
-        margin-top: 175px;
-    }
-
-    html {
-        font-size: 0.7rem;
-    }
-} */
-
-/* @media screen and (max-width: 801px) {
-
-    .row .card-body {
-        min-height: 225px;
-        justify-content: end;
-    }
-
-    .card-body .card-subtitle {
-        margin-top: 2px;
-    }
-
-    .card-body .justify {
-        height: 130px;
-    }
-
-    .container-fluid .input-group .form-control {
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    .card-footer .d-inline-block a img {
-        width: 25px;
-    }
-
-    .input-group span img {
-        width: 45px;
-    }
-
-    body .margem-nav {
-        margin-top: 50px;
-    }
-
-    html {
-        font-size: 0.6rem;
-    }
-} */
-
-/* @media screen and (max-width: 585px) {
 
     .row .card-body {
         min-height: 100px;
-        justify-content: end;
+        justify-content: center;
     }
 
     .card-body .card-subtitle {
-        margin-top: 20px;
+        margin-top: 25px;
     }
 
     .card-body .justify {
-        height: 50px;
+        min-height: 250px;
     }
 
-    .container-fluid .input-group .form-control {
-        margin: 0 auto;
-        max-width: 75%;
-    }
-
-    .card-footer .d-inline-block a img {
-        width: 25px;
-    }
-
-    .input-group span img {
+    .card-footer div a img {
         width: 35px;
     }
-
-    body .margem-nav {
-        margin-top: 60px;
-    }
-
-    html {
-        font-size: 0.4rem;
-    }
 } */
 
-/* @media screen and (max-width: 585px) {
+@media screen and (max-width: 864px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 145px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
 
     .row .card-body {
         min-height: 100px;
-        justify-content: end;
+        justify-content: center;
     }
 
     .card-body .card-subtitle {
-        margin-top: 20px;
+        margin-top: 25px;
     }
 
     .card-body .justify {
-        height: 50px;
+        min-height: 250px;
     }
 
-    .container-fluid .input-group .form-control {
-        margin: 0 auto;
-        max-width: 75%;
+    .card-footer div a img {
+        width: 35px;
     }
-
-    .card-footer .d-inline-block a img {
-        width: 25px;
-    }
-
-    .input-group span img {
-        width: 45px;
-    }
-
-    body .margem-nav {
-        margin-top: 60px;
-    }
-
-    html {
-        font-size: 0.4rem;
-    }
-} */
+}
