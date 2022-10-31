@@ -224,7 +224,7 @@ ol {
 }
 
 
-/* @media screen and (max-width: 1749px) {
+@media screen and (max-width: 1749px) {
 
     .row .card-body {
         min-height: 400px;
@@ -239,10 +239,20 @@ ol {
         min-height: 175px;
     }
 
+    .carousel-inner>.carousel-item>img {
+        margin: auto;
+
+    }
+
+    body header .margem-nav {
+        margin-top: 100px;
+        transform: scale(0.1);
+    }
+
     html {
         font-size: 1rem;
     }
-} */
+}
 
 /* @media screen and (max-width: 1301px) {
 
@@ -513,7 +523,7 @@ ol {
     }
 } */
 
-@media screen and (max-width: 585px) {
+/* @media screen and (max-width: 585px) {
 
     .row .card-body {
         min-height: 100px;
@@ -548,4 +558,4 @@ ol {
     html {
         font-size: 0.4rem;
     }
-}
+} */
