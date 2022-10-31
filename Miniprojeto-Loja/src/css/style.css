@@ -7,6 +7,8 @@ body {
     background-size: cover;
 }
 
+
+
 s,
 a,
 p,
@@ -224,7 +226,7 @@ ol {
 }
 
 
-/* @media screen and (max-width: 1749px) {
+@media screen and (min-width: 1749px) and (max-width: 1749px) {
 
     html {
         font-size: 1rem;
@@ -250,9 +252,45 @@ ol {
     .card-body .justify {
         min-height: 175px;
     }
-} */
+}
 
-/* @media screen and (max-width: 1749px) {
+@media screen and (min-width: 1749px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    header .margem-nav {
+        margin-top: -40px;
+    }
+
+    .card-body .margem-produto {
+        min-height: 130px;
+    }
+
+    .img-sobre-nos {
+        width: 150px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
+
+    .row .card-body {
+        min-height: 200px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 50px;
+    }
+
+    .card-body .justify {
+        min-height: 175px;
+    }
+}
+
+@media screen and (min-width: 1305px) and (max-width: 1749px) {
 
     html {
         font-size: 1rem;
@@ -286,9 +324,9 @@ ol {
     .card-body .justify {
         min-height: 175px;
     }
-} */
+}
 
-/* @media screen and (max-width: 1305px) {
+@media screen and (min-width: 1166px) and (max-width: 1305px) {
 
     html {
         font-size: 1rem;
@@ -322,9 +360,9 @@ ol {
     .card-body .justify {
         min-height: 200px;
     }
-} */
+}
 
-/* @media screen and (max-width: 1166px) {
+@media screen and (min-width: 1084px) and (max-width: 1166px) {
 
     html {
         font-size: 1rem;
@@ -359,9 +397,9 @@ ol {
     .card-body .justify {
         min-height: 235px;
     }
-} */
+}
 
-/* @media screen and (max-width: 1084px) {
+@media screen and (min-width: 992px) and (max-width: 1084px) {
 
     html {
         font-size: 1rem;
@@ -400,53 +438,9 @@ ol {
     .card-footer div a img {
         width: 35px;
     }
-} */
+}
 
-/* @media screen and (max-width: 992px) {
-
-    html {
-        font-size: 0.9rem;
-    }
-
-    header .margem-nav {
-        margin-top: 75px;
-    }
-
-    div div .text-start p {
-        display: none;
-    }
-
-    .card-body .margem-produto {
-        min-height: 145px;
-    }
-
-    .img-sobre-nos {
-        width: 100px;
-    }
-
-    .col-desktop-4 .icone-quem-somos {
-        width: 50px;
-    }
-
-    .row .card-body {
-        min-height: 100px;
-        justify-content: center;
-    }
-
-    .card-body .card-subtitle {
-        margin-top: 25px;
-    }
-
-    .card-body .justify {
-        min-height: 250px;
-    }
-
-    .card-footer div a img {
-        width: 35px;
-    }
-} */
-
-@media screen and (max-width: 864px) {
+@media screen and (min-width: 864px) and (max-width: 992px) {
 
     html {
         font-size: 0.9rem;
@@ -488,4 +482,437 @@ ol {
     .card-footer div a img {
         width: 35px;
     }
+}
+
+@media screen and (min-width: 836px) and (max-width: 864px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        height: 140px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 300px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 30px;
+    }
+
+    .card-footer div a img {
+        width: 30px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 794px) and (max-width: 836px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 140px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 300x;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    .card-body .margem-icones {
+        margin-bottom: 20px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-top: 45px;
+    }
+
+    .card-footer div a img {
+        width: 27px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 774px) and (max-width: 794px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 140px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 300px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesW {
+        margin-top: 50px;
+    }
+
+    .card-footer div a img {
+        width: 27px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 678px) and (max-width: 774px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 150px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 150px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 575px) and (max-width: 678px) {
+
+    html {
+        font-size: 0.9rem;
+        width: 100% !important;
+        margin: 20px auto;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 145px;
+    }
+
+    .img-sobre-nos {
+        width: 125px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 175px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+
+    span .btn-pesquisa {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    html {
+        font-size: 0.7rem;
+        width: 125% !important;
+        margin: 20px auto;
+    }
+
+    .d-inline-block h6 {
+        display: none;
+    }
+
+    div .form-control {
+        width: 25px;
+    }
+
+    .mt-5 .carousel {
+        display: none;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 100px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 100px;
+    }
+
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 5px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 5px;
+    }
+
+    .social-inner img {
+        width: 25px;
+    }
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .justify-content-center img {
+        width: 30px;
+        height: 30px;
+    }
+
+    span .btn-pesquisa {
+        width: 50px;
+    }
+
+
 }
