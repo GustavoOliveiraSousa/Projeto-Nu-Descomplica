@@ -28,8 +28,8 @@ span {
     filter: blur(8px);
     -webkit-filter: blur(8px);
     position: fixed;
-    width: 105%;
-    height: 105%;
+    width: 115%;
+    height: 115%;
     transform: translate(-25px, -25px);
 }
 
@@ -48,6 +48,10 @@ span {
     background-color: #001220;
     opacity: 99%;
     box-shadow: 5px 5px 5px #ff7301;
+}
+
+.inversor {
+    filter: invert(100%);
 }
 
 /* Works on Firefox */
