@@ -9,7 +9,6 @@ body {
 }
 
 
-
 s,
 a,
 p,
@@ -516,11 +515,11 @@ ol {
     span,
     s,
     h6 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     div div h6 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
@@ -566,12 +565,12 @@ ol {
 
     /* dody do produto sem os botões */
     .body-card {
-        min-height: 400px;
+        min-height: 3 00px;
     }
 
     /* imagem do lado do texto */
     .img-sobre-nos {
-        width: 75%;
+        width: 50%;
     }
 
     /* icones de missão, visão e valores */
@@ -592,7 +591,7 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 450px;
+        min-height: 250px;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -792,7 +791,7 @@ ol {
 
     html {
         font-size: 1rem;
-        width: 100% !important;
+        width: 125% !important;
     }
 
     p,
@@ -933,8 +932,8 @@ ol {
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
     html {
-        font-size: 1.5rem;
-        width: 300% !important;
+        font-size: 1rem;
+        width: 135%;
     }
 
     p,
@@ -1033,8 +1032,8 @@ ol {
 @media screen and (min-width: 400px) and (max-width: 576px) {
 
     html {
-        font-size: 1.5rem;
-        width: 350% !important;
+        font-size: 1rem;
+        width: 215% !important;
     }
 
     p,
@@ -1170,8 +1169,8 @@ ol {
 @media screen and (min-width: 250px) and (max-width: 400px) {
 
     html {
-        font-size: 1.3rem;
-        width: 400% !important;
+        font-size: 2.5rem;
+        width: 600% !important;
     }
 
     p,
