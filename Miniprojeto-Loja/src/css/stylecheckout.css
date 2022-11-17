@@ -1,0 +1,84 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+s,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+label {
+    color: white;
+}
+
+
+span {
+    font-size: small;
+}
+
+.bg-image {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: fixed;
+    width: 115%;
+    height: 115%;
+    transform: translate(-25px, -25px);
+}
+
+.topper {
+    margin-top: 45px;
+    position: absolute;
+}
+
+.neon-white {
+    line-height: 2;
+    color: #fcfcfc;
+    animation: neon-white 2s ease-in-out infinite alternate;
+}
+
+.blur {
+    background-color: #001220;
+    opacity: 99%;
+    box-shadow: 5px 5px 5px #ff7301;
+}
+
+.inversor {
+    filter: invert(100%);
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: black orange;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ff7301;
+    border-radius: 20px;
+    border: 3px solid #f24f00;
+}
+
+@keyframes neon-white {
+    from {
+        text-shadow: 0 0 35px white,
+            0 0 40px whitesmoke,
+            0 0 55px wheat;
+    }
+}

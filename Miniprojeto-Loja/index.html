@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://drive.google.com/uc?export=view&id=1yTLwNiCZhIdCWolQldwq4spHQkgZDqkG">
+    <link rel="shortcut icon" href="./assets/img/logo/logo.png" type="image/x-icon">
+    <meta name="theme-color" content="#4285f4">
+    <title>Casa War</title>
+</head>
+
+
+<body class=" w-100 p-0">
+    <header class="container-fluid text-center g-0 ">
+        <nav id="menu" class="navbar navbar-expand-lg fixed-top blur ">
+            <div class="container-fluid d-block ">
+                <div class="container-fluid ms-2">
+                    <div class="d-inline-flex w-100 justify-content-between ">
+                        <div class="d-inline-block">
+                            <div class="d-inline-flex">
+                                <a class="navbar-brand logo" href="#">
+                                    <img src="./assets/img/logo/logo.png" class="logo" alt="logo" width="50px">
+
+                                </a>
+                                <div class="d-flex" style="white-space: nowrap ;">
+                                    <div class="d-inline-block">
+                                        <h3 class="my-0 text-start ">Casa War</h3>
+                                        <h6 class="text-start ">O Arsenal do Gamer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" text-end me-4 col-3 ">
+                            <button class="navbar-toggler collapsed bg-danger mb-3 " type="button"
+                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse justify-content-end me-3 " id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class=" nav-item">
+                                        <a class="nav-link" aria-current="page" href="#produtos">Produtos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#quem-somos">Quem somos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#nosso-time">Nosso time</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pesquisa" class=" container-fluid input-group mb-auto w-100  h-25 ms-0 me-0 " id="input-o">
+                        <input type="text" class="form-control form-control-lg form-control-sm h-100"
+                            placeholder="Oi, o que você procura?" aria-label="Procura" aria-describedby="basic-addon2">
+                        <span class="me-2" id="basic-addon2">
+                            <img class="btn btn-pesquisa" src="./assets/img/icons/searching.png" width="60px"
+                                alt="Botão de pesquisa">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="margem-nav"></div>
+
+        <div class="">
+            <div class="mt-5 ">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                    </ol>
+                    <div class="carousel-inner p-2">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/carrosel/img1.png"
+                                class="d-block w-100 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./assets/img/carrosel/img2.png"
+                                class="d-block w-100 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./assets/img/carrosel/img3.png"
+                                class="d-block w-100 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./assets/img/carrosel/img4.png"
+                                class="d-block w-100 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class=""
+                style="  border-style: solid; border-width: 0 0 0px 0; border-color: #eaeaea; background-color: transparent; background-size: cover;  background-position: center center; ">
+                <div class="container-fluid">
+                    <div class="section-title row "> </div>
+                    <div class="row justify-content-between align-items-lg-center">
+                        <div class="col-6 col-lg text-center mb-3 mt-3">
+                            <div class="d-flex align-items-center justify-content-lg-center w-100" href="">
+                                <img loading="lazy" class="img-fluid"
+                                    src="https://cdn.dooca.store/205/files/desconto.svg?v=1580931573" alt="desconto">
+                                <div class="text-lg-left ml-lg-4">
+                                    <h5 style="color: #7fff00;">ATÉ 16% DE DESCONTO</h5>
+                                    <p class="text m-0">à vista no boleto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg text-center mb-3 mt-3">
+                            <div class="d-flex align-items-center  justify-content-lg-center w-100" href="">
+                                <img loading="lazy" class="img-fluid "
+                                    src="https://cdn.dooca.store/205/files/parcelamento.svg?v=1580931564"
+                                    alt="parcelamento">
+                                <div class="text-lg-left ml-lg-4">
+                                    <h5 style="color: #7fff00;">PARCELE EM ATÉ 10X</h5>
+                                    <p class="text m-0"> no cartão de crédito</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg text-center mb-3 mt-3">
+                            <div class="d-flex align-items-center justify-content-lg-center w-100" href="">
+                                <img loading="lazy" class="img-fluid "
+                                    src="https://cdn.dooca.store/205/files/seguranca.svg?v=1580931581" alt="seguranca">
+                                <div class="text-lg-left ml-lg-4">
+                                    <h5 style="color: #7fff00;">LOJA SEGURA</h5>
+                                    <p class="text m-0">criptografia SSL 256</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg text-center mb-3 mt-3">
+                            <div class="d-flex align-items-center justify-content-lg-center w-100" href="">
+                                <img loading="lazy" class="img-fluid "
+                                    src="https://cdn.dooca.store/205/files/frete-1.svg?v=1580931617" alt="frete-1">
+                                <div class="text-lg-left ml-lg-4">
+                                    <h5 style="color: #7fff00;">COMPRE NO SITE</h5>
+                                    <p class="text m-0">e retire na loja</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <header class="container-fluid text-center p-4 g-0 " id="produtos">
+        <div>
+            <div>
+                <h1 class="text-center neon">Produtos</h1>
+            </div>
+        </div>
+        <div class=" row row-cols-2 row-cols-md-2 g-4 row-cols-sm-2 row-cols-lg- row-cols-xxl-3">
+            <div class="col">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img src="./assets/img/produtos/cadeira-gamer-terabyte-white-throne-reclinavel-4d-suporta-ate-180kg-branco-e-preto_141892-removebg-preview.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title margem-produto">CADEIRA GAMER TERABYTE WHITE THRONE, RECLINÁVEL, 4D,
+                                SUPORTA ATÉ
+                                140KG,
+                                BRANCO E PRETO
+                            </h5>
+                            <div class="body-card">
+                                <div class="d-flex justify-content-start container-flex">
+                                    <img class="card-bol" src="./assets/img/icons/barcode.png"
+                                        style="margin-right:1px ;" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <s> R$ 1.787,88</s>
+                                        <span>por:</span>
+                                        <br>
+                                        <span class="preco negrito"> R$ 999,00</span>
+                                        <br>
+                                        <span>à vista com 15% de desconto no boleto ou pix</span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start  container-flex">
+                                    <img class="card-bol" src="./assets/img/icons/credit-card.png">
+                                    <div class="d-block text-start ms-1">
+                                        <span class="precoMais text-start preco-mil">R$ 1.175,29</span>
+                                        <br>
+                                        <span class="frete">12x de R$ 97,94 sem juros</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em 1x com 7% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em até 3x com 5% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou de 4 a 6x sem juros +</span>
+                                        <span class="frete">Frete Grátis </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div>
+                                <div class=" d-block mt-3 m-0 mx-0">
+                                    <a href="#" class="btn btn-danger mb-2 w-100" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comprar com desconto</a>
+                                    <a href="#" class="btn btn-primary mb-2 w-100" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img src="./assets/img/produtos/carregador-wireless-qi-hyperx-chargeplay-base-hx-cpbs-c_124972-removebg-preview.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title margem-produto">Carregador Wireless HyperX QI ChargePlay Base,
+                                HX-CPBS-C com slot
+                                duplo
+                            </h5>
+                            <div class="body-card">
+                                <div class="d-flex justify-content-start ">
+                                    <img class="card-bol" src="./assets/img/icons/barcode.png"
+                                        style="margin-right:1px ;" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <s>R$ 427,45</s>
+                                        <span>por:</span>
+                                        <br>
+                                        <span class="preco negrito"> R$ 129,90</span>
+                                        <br>
+                                        <span>à vista com 15% de desconto no boleto ou pix</span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start">
+                                    <img class="card-bol" src="./assets/img/icons/credit-card.png" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <span class="precoMais text-start">R$ 152,82</span>
+                                        <br>
+                                        <span class="frete">7x de R$ 21,83 sem juros</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em 1x com 7% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em até 3x com 5% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou de 4 a 6x sem juros +</span>
+                                        <span class="frete">Frete Grátis </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-block mt-3 m-0 mx-0">
+                                    <a href="#" class="btn btn-danger mb-2 w-100" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comprar com desconto</a>
+                                    <a href="#" class="btn btn-primary mb-2 w-100" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img src="./assets/img/produtos/controle-removebg-preview.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title margem-produto">Controle NOX Krom Gaming KEY, PC, PS3, Android, Preto
+                                Fosco/Laranja -
+                                NXKROMKEY
+                            </h5>
+                            <div class="body-card">
+                                <div class="d-flex justify-content-start ">
+                                    <img class="card-bol" src="./assets/img/icons/barcode.png"
+                                        style="margin-right:1px ;" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <s>R$ 157,88</s>
+                                        <span>por:</span>
+                                        <br>
+                                        <span class="preco negrito"> R$ 134,99</span>
+                                        <br>
+                                        <span>à vista com 10% de desconto no boleto ou pix</span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start">
+                                    <img class="card-bol" src="./assets/img/icons/credit-card.png" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <span class="precoMais text-start">R$ 142,09</span>
+                                        <br>
+                                        <span class="frete">5x de R$ 28,41 sem juros</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em 1x com 7% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em até 3x com 5% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou de 4 a 6x sem juros +</span>
+                                        <span class="frete">Frete Grátis </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-block mt-3 m-0 mx-0">
+                                <a href="#" class="btn btn-danger mb-2 w-100 " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Comprar com desconto</a>
+                                <a href="#" class="btn btn-primary mb-2 w-100" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img src="./assets/img/produtos/norm_1_monitor-gamer-warrior-kaizen-27-ips-144hz-1ms-mn201-removebg-preview.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title margem-produto">Monitor Gamer Warrior 27 Polegadas Full HD - Mn201
+                            </h5>
+                            <div class="body-card">
+                                <div class="d-flex justify-content-start ">
+                                    <img class="card-bol" src="./assets/img/icons/barcode.png"
+                                        style="margin-right:1px ;" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <s> R$ 2.250,99</s>
+                                        <span>por:</span>
+                                        <br>
+                                        <span class="preco negrito">R$ 1.994,05</span>
+                                        <br>
+                                        <span>à vista com 10% de desconto no boleto ou pix</span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start">
+                                    <img class="card-bol" src="./assets/img/icons/credit-card.png" width="11%"
+                                        height="11%" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <span class="precoMais text-start preco-mil">R$ 2.090,99</span>
+                                        <br>
+                                        <span class="frete">12x de R$ 174,99 s/ juros</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em 1x com 7% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em até 3x com 5% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou de 4 a 6x sem juros + </span>
+                                        <span class="frete">Frete Grátis </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-block mt-3 m-0 mx-0">
+                                <a href="#" class="btn btn-danger mb-2 w-100 " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Comprar com desconto</a>
+                                <a href="#" class="btn btn-primary mb-2 w-100 " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img src="./assets/img/produtos/QPED89042642000167-SKU-2530-1-removebg-preview.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title margem-produto">Mesa para Computador Gamer Madesa 9409 Preto
+                            </h5>
+                            <div class="body-card">
+                                <div class="d-flex justify-content-start ">
+                                    <img class="card-bol" src="./assets/img/icons/barcode.png"
+                                        style="margin-right:1px ;" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <s>R$ 449,90</s>
+                                        <span>por:</span>
+                                        <br>
+                                        <span class="preco negrito"> R$ 299,99</span>
+                                        <br>
+                                        <span>à vista com 15% de desconto no boleto ou pix</span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start">
+                                    <img class="card-bol" src="./assets/img/icons/credit-card.png" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <span class="precoMais text-start">R$ 399,99</span>
+                                        <br>
+                                        <span class="frete">7x de R$ 57,14 sem juros</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em 1x com 7% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em até 3x com 5% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou de 4 a 6x sem juros +</span>
+                                        <span class="frete">Frete Grátis </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-block mt-3 m-0 mx-0">
+                                <a href="#" class="btn btn-danger mb-2 w-100 " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Comprar com desconto</a>
+                                <a href="#" class="btn btn-primary mb-2 w-100 " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img src="./assets/img/produtos/teclado-gamer-mecanico-hyperx-alloy-origins-rgb-switch-hyperx-blue-abnt2-black-hx-kb6blx-br_117773-removebg-preview.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title margem-produto">Teclado Gamer Mecânico HyperX Alloy Origins, RGB,
+                                Switch HyperX Blue,
+                                ABNT2, Black, HX-KB6BLX-BR
+                            </h5>
+                            <div class="body-card">
+                                <div class="d-flex justify-content-start ">
+                                    <img class="card-bol" src="./assets/img/icons/barcode.png"
+                                        style="margin-right:1px ;" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <s>R$ 610,90</s>
+                                        <span>por:</span>
+                                        <br>
+                                        <span class="preco negrito"> R$ 449,90</span>
+                                        <br>
+                                        <span>à vista com 15% de desconto no boleto ou pix</span>
+                                        <br><br>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start">
+                                    <img class="card-bol" src="./assets/img/icons/credit-card.png" alt="">
+                                    <div class="d-block text-start ms-1">
+                                        <span class="precoMais text-start">R$ 529,29</span>
+                                        <br>
+                                        <span class="frete">12x de R$ 44,11 sem juros</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em 1x com 7% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou em até 3x com 5% de desconto</span>
+                                        <br>
+                                        <span class="d-none-sm">ou de 4 a 6x sem juros +</span>
+                                        <span class="frete">Frete Grátis </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-block mt-3 m-0 mx-0">
+                                <a href="#" class="btn btn-danger mb-2 w-100 " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Comprar com desconto</a>
+                                <a href="#" class="btn btn-primary mb-2 w-100 " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="container-fluid text-center g-0" id="quem-somos">
+        <header id="header" class="page-quem-somos">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-12 title">
+                        <h1 class="neon-white">Quem Somos</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="container-fluid w-100 col-12" id="intro">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="d-flex ">
+                        <div class="d-flex">
+                            <div id="img-box" class="col col-desktop-4 col-3 d-block">
+                                <img class="img-sobre-nos my-5 mx-0" src="./assets/img/logo/logo.png" width="200px"
+                                    alt="">
+                            </div>
+                            <div class="col col-desktop-8 ">
+                                <h2>Sobre Nós</h2>
+                                <p class="justify-content-between justify">A loja CASA WAR é uma empresa inovadora
+                                    que
+                                    nasceu com o objetivo de oferecer, ao
+                                    segmento gamer, os melhores
+                                    produtos aliado a um atendimento personalizado com envio rápido e segurança.
+                                    <br><br>
+                                    Nossa loja virtual surgiu em 2022 juntamente com nossas páginas no Github e
+                                    Instagram,
+                                    onde publicamos matérias sobre
+                                    colecionáveis, produtos relacionados além de informações e novidades sobre o
+                                    mundo
+                                    dos
+                                    games.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="justify">A loja foi criada com a necessidade do público gamer de encontrar
+                            produtos relacionados
+                            em disponibilidade no Brasil. Os
+                            produtos exclusivos até então só eram encontrados em sites marketplace de outros
+                            países
+                            onde o comprador enfrentava
+                            longos prazos de entrega, produtos sem garantia e riscos de taxação na alfândega.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid" id="valores">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-4">
+                        <img class="inversor icone-quem-somos" src="./assets/img/icons/icons8-rocket.gif" width="100px"
+                            alt="">
+                        <h2>Missão</h2>
+                        <p class="justify">Oferecer um atendimento ágil, empático, cordial e especializado a
+                            todos
+                            nossos clientes,
+                            sempre com produtos confiáveis
+                            e de qualidade.
+                        </p>
+                    </div>
+                    <div class="col col-4">
+                        <img class="inversor icone-quem-somos" src="./assets/img/icons/target-unscreen.gif"
+                            width="100px" alt="">
+                        <h2>Visão</h2>
+                        <p class="justify">Nos tornarmos a empresa de games e tecnologia geek mais confiável e com o
+                            melhor
+                            atendimento do Brasil.
+                        </p>
+                    </div>
+                    <div class="col col-4">
+                        <img class="inversor icone-quem-somos" src="./assets/img/icons/icons8-scales-unscreen.gif"
+                            width="100px" alt="">
+                        <h2>Valores</h2>
+                        <p class="justify">Empatia, Agilidade, Confiança, Inovação,
+                            competência, Comprometimento, Profissionalismo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <section class="container-fluid text-center p-4" id="nosso-time">
+        <div>
+            <div>
+                <h1 class="text-center neon-white">Conheça os nosso colaboradores</h1>
+            </div>
+        </div>
+        <div class="row row-cols-2 row-cols-md-2 row-cols-sm-2 row-cols-xl-4 g-4">
+            <div class="col ">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img class="borda-imagem" src="./assets/img/nosso-time/Autor.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title espaco-colaboradoresG">
+                                Gustavo Oliveira
+                            </h5>
+                            <p class="justify">Em formação em Análise e Desenvolvimento de Sistemas pale faculdade
+                                Estácio de Sá, com previsão de formatura para o primeiro trimestre de 2024.
+                                Proativo, ágil e
+                                sempre a procura de melhoras.
+                                <br>
+                                Característica: Desafio
+                            </p>
+                            <div class="baixo">
+                                <h6 class="card-subtitle margem-iconesG">
+                                    Desenvolvedor Full
+                                </h6>
+                                <div class="card-footer">
+                                    <div class="d-inline-block my-1">
+                                        <a href="https://github.com/GustavoOliveiraSousa" target="_blank"
+                                            rel="noopener">
+                                            <img class="inversor me-2"
+                                                src="./assets/img/icons/social-media/icons8-github-50.png" alt="">
+                                        </a>
+                                        <a href="" target="_blank" rel="noopener">
+                                            <img class="inversor"
+                                                src="./assets/img/icons/social-media/icons8-instagram-50.png" alt="">
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/gustavooliveira2003/" target="_blank"
+                                            rel="noopener">
+                                            <img class="inversor ms-2"
+                                                src="./assets/img/icons/social-media/icons8-linkedin-circled-50.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img class="borda-imagem" src="./assets/img/nosso-time/homem jovem.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title colaboradoresW">
+                                William Bittencourt
+                            </h5>
+                            <p class="justify">Formado em Ciência da Computação pela Universidade Federal do Ceará(UFC)
+                                em 2010. Possui vasta experiência no campo bach-end(BD, Servidor), tendo trabalhado no
+                                Google,
+                                Microsoft e Apple.<br>
+                                Característica: Inovação</p>
+                            <h6 class="card-subtitle margem-iconesW">
+                                Desenvolverdor Back
+                            </h6>
+                            <div class="card-footer">
+                                <div class="d-inline-block my-1">
+                                    <a href="" target="_blank" rel="noopener">
+                                        <img class="inversor me-2"
+                                            src="./assets/img/icons/social-media/icons8-github-50.png" alt="">
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener">
+                                        <img class="inversor"
+                                            src="./assets/img/icons/social-media/icons8-instagram-50.png" alt="">
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener">
+                                        <img class="inversor ms-2"
+                                            src="./assets/img/icons/social-media/icons8-linkedin-circled-50.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img class="borda-imagem" src="./assets/img/nosso-time/mulher idosa.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title colaboradoresF">
+                                Fabíola Damasceno
+                            </h5>
+                            <p class="justify">Formada em Engenharia de Dados pela
+                                Universidade
+                                de São
+                                Paulo (USP)
+                                em 2010. Possui vasta experiência no campo
+                                de project manager e equipe, tendo trabalhado no Google, Microsoft e Apple.<br>
+                                Característica: Gerência</p>
+                            <h6 class="card-subtitle margem-icones margem-iconesF">
+                                Gerente de Projeto
+                            </h6>
+                            <div class="card-footer">
+                                <div class="d-inline-block my-1">
+                                    <a href="" target="_blank" rel="noopener">
+                                        <img class="inversor me-2"
+                                            src="./assets/img/icons/social-media/icons8-github-50.png" alt="">
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener">
+                                        <img class="inversor"
+                                            src="./assets/img/icons/social-media/icons8-instagram-50.png" alt="">
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener">
+                                        <img class="inversor ms-2"
+                                            src="./assets/img/icons/social-media/icons8-linkedin-circled-50.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="borda">
+                    <div class="card h-100 ">
+                        <img class="borda-imagem" src="./assets/img/nosso-time/mulher jovem.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title espaco-colaboradoresL">
+                                Lorena Annenberg
+                            </h5>
+                            <p class="justify">Formada em Engenharia de Dados pela Universidade Politécnica de São
+                                Paulo (USP) em 2017. Possui vasta experiência no
+                                campo de ciência de dados, tendo trabalhado no Google e Microsoft e Apple.
+                                <br>
+                                Característica: Analítica
+                            </p>
+                            <h6 class="card-subtitle margem-iconesL">
+                                Engenheira de Dados
+                            </h6>
+                            <div class="card-footer">
+                                <div class="d-inline-block my-1">
+                                    <a href="" target="_blank" rel="noopener">
+                                        <img class="inversor me-2"
+                                            src="./assets/img/icons/social-media/icons8-github-50.png" alt="">
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener">
+                                        <img class="inversor"
+                                            src="./assets/img/icons/social-media/icons8-instagram-50.png" alt="">
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener">
+                                        <img class="inversor ms-2"
+                                            src="./assets/img/icons/social-media/icons8-linkedin-circled-50.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="section footer-classic context-dark bg-image container-fluid" id="rodape"
+        style="background: #011d33;">
+        <div class="container-fluid">
+            <div class="row row-30">
+                <div class="col-sm-4 col-md-4 col-xl-5">
+                    <div class="pr-xl-4">
+                        <a class="brand d-inline-flex" href="index.html">
+                            <h5 class="mt-2">Home</h5>
+                        </a>
+                        <p>Nos tornarmos a empresa de games e tecnologia geek mais confiável e com o melhor atendimento
+                            do Brasil.</p>
+                        <!-- Rights-->
+                        <p class="rights"><span>© </span><span class="copyright-year">2022</span><span>
+                            </span><span>Company</span><span> - </span><span>All Rights Reserved.</span></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contatos</h5>
+                    <dl class="contact-list">
+                        <dt>Endereço:</dt>
+                        <dd>Rua dos Ladrilhos, 28- Cerejeiras, Fortaleza-CE, Brasil</dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>Email:</dt>
+                        <dd><a href="mailto:#">compagny@gmail.com</a></dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>Contatos:</dt>
+                        <dd><a href="tel:+5588981208438">(88) 9 9999-9999</a> <span>ou</span> <br> <a
+                                href="tel:+5588981208438">(88) 9
+                                0000-0000</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                    <h5>Links</h5>
+                    <ul class="nav-list">
+                        <li><a href="index.html#">Home</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#quem-somos">Quem somos</a></li>
+                        <li><a href="#nosso-time">Nosso time</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters social-container">
+            <div class="col">
+                <a class="social-inner" href="#" target="_blank" rel="noopener">
+                    <img class="inversor" src="./assets/img/icons/social-media/icons8-facebook-50.png" alt="">
+                    <span>Facebook</span>
+                </a>
+            </div>
+            <div class="col">
+                <a class="social-inner" href="https://github.com/GustavoOliveiraSousa" target="_blank" rel="noopener">
+                    <img class="inversor" src="./assets/img/icons/social-media/icons8-github-50.png" alt="">
+                    <span>Github</span>
+                </a>
+            </div>
+            <div class="col">
+                <a class="social-inner" href="https://www.instagram.com/gustavosousa2003/" target="_blank"
+                    rel="noopener">
+                    <img class="inversor" src="./assets/img/icons/social-media/icons8-instagram-50.png" alt="">
+                    <span>Instagram</span>
+                </a>
+            </div>
+            <div class="col">
+                <a class="social-inner" href="https://www.linkedin.com/in/gustavooliveira2003/" target="_blank"
+                    rel="noopener">
+                    <img class="inversor" src="./assets/img/icons/social-media/icons8-linkedin-circled-50.png" alt="">
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="../Miniprojeto-Loja/src/Javascript/script.js"></script>
+
+
+<script>
+    // Handle Bootstrap carousel slide event
+    $('.carousel').carousel({
+        interval: 5000
+    });
+</script>
+
+<!-- Menu flutuante -->
+<script>
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 30) {               // se rolar 40px ativa o evento
+            $("#menu").addClass("ativo");    //coloca a classe "ativo" no id=menu
+        } else {
+            $("#menu").removeClass("ativo"); //se for menor que 40px retira a classe "ativo" do id=menu
+        }
+    });
+
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 30) {               // se rolar 40px ativa o evento
+            $("#pesquisa").addClass("ativo");    //coloca a classe "ativo" no id=menu
+        } else {
+            $("#pesquisa").removeClass("ativo"); //se for menor que 40px retira a classe "ativo" do id=menu
+        }
+    });
+</script>
+
+
+
+<!-- Modal -->
+<div class="modal fade p-0" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Produto adicionado ao carrinho
+            </div>
+            <div class="modal-footer">
+                <a type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continuar a comprar</a>
+                <a href="./pages/checkout.html" class="btn btn-primary">Finalizar compra</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
