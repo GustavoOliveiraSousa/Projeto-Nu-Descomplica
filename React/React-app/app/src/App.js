@@ -1,4 +1,5 @@
 import './App.css';
+import Voos from './Voos';
 
 const Titulo = () => (
   <h2 className='App-header'>
@@ -73,6 +74,7 @@ function App() {
   return (
     <div className="App">
       <Titulo />
+      <Voos />
       <Lista />
       <Pessoa idade={19} />
       <Pessoa idade={14} />
