@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.assento {
+  margin-left: 1vw;
+  margin-bottom: 0.5vw;
+  width: 4vw;
+  height: 4vw;
+  background-color: orangered;
+  border-radius: 1vw;
+  border-style: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.assento:nth-child(2) {
+  margin-right: 3vw;
+}
+
+.assento:disabled {
+  background-color: gray;
+  color: black;
+  cursor: not-allowed;
+}
