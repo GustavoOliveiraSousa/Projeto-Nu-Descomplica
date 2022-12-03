@@ -1,33 +1,31 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 
-class Assento extends React.Component {
+const Assento = (props) => {
+    const [disabled, setDisabled] = useState(false)
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            disabled: false
+    const handleClick = () => {
+        setDisabled(true)
+    }
+
+    useEffect(() => {
+        console.log('Nasceu');
+    }, [])
+
+    useEffect(() => {
+        if (disabled) {
+            console.log('Alterou para: ', disabled);
         }
-    }
+    }, [disabled])
 
-    handleClick() {
-        this.setState(
-            {
-                disabled: true
-            }
-        )
-    }
-
-    render() {
-        return (
-            <button
-                className="assento"
-                type="button"
-                disabled={this.state.disabled}
-                onClick={() => this.handleClick()}>
-                {this.state.disabled ? 'X' : this.props.pos}
-            </button>
-        )
-    }
+    return (
+        <button
+            className="assento"
+            type="button"
+            disabled={disabled}
+            onClick={() => handleClick()}>
+            {disabled ? 'X' : props.pos}
+        </button>
+    )
 }
 
 const Fileira = (props) => {
