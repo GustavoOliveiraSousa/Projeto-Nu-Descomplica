@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Voos from './Voos';
 
@@ -9,16 +10,27 @@ const Titulo = () => (
   </h2>
 )
 
-function Botao(props) {
+class MeuBotao extends React.Component {
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    console.log("Clicou", e);
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   console.log("Clicou", e);
+  // }
+
+  imprime() {
+    console.log("Imprime Aqui");
   }
 
-  return (
-    <a onClick={handleClick} href="https://descomplica.com.br">{props.label}</a>
-  )
+  handleClick(e) {
+    e.preventDefault();
+    this.imprime();
+  }
+
+  render() {
+    return (
+      <a onClick={this.handleClick.bind(this)} href="https://descomplica.com.br">{this.props.label}</a>
+    )
+  }
 }
 
 function PessoaDeMaior(props) {
@@ -80,7 +92,7 @@ function App() {
   return (
     <div className="App">
       <Titulo />
-      <Botao label={`${labelBotao} !!!`} />
+      <MeuBotao label={`${labelBotao} !!!`} />
       <Voos />
       <Lista />
       <Pessoa idade={19} />
