@@ -10,8 +10,14 @@ const Titulo = () => (
 )
 
 function Botao(props) {
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log("Clicou", e);
+  }
+
   return (
-    <button>{props.label}</button>
+    <a onClick={handleClick} href="https://descomplica.com.br">{props.label}</a>
   )
 }
 
@@ -74,6 +80,7 @@ function App() {
   return (
     <div className="App">
       <Titulo />
+      <Botao label={`${labelBotao} !!!`} />
       <Voos />
       <Lista />
       <Pessoa idade={19} />
@@ -83,7 +90,7 @@ function App() {
         <h2>Subtitulo</h2>
         <p>abcd abcd abcd abcd abcd </p>
       </article>
-      <Botao label={`${labelBotao} !!!`} />
+
     </div>
   );
 }
