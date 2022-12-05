@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Voos from './Voos';
 import { AssentosOnibus } from './AssentosOnibus';
+import { ViaCEP } from './ViaCEP';
 
 const Titulo = () => (
   <h2 className='App-header'>
@@ -93,6 +94,7 @@ function App() {
   return (
     <div className="App">
       <Titulo />
+      <ViaCEP />
       <AssentosOnibus />
       <MeuBotao label={`${labelBotao} !!!`} />
       <Voos />
