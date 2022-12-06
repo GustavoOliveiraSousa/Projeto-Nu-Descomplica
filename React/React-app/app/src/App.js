@@ -3,6 +3,7 @@ import './App.css';
 import Voos from './Voos';
 import { AssentosOnibus } from './AssentosOnibus';
 import { ViaCEP } from './ViaCEP';
+import { RenderProps } from './Renderprops';
 
 const Titulo = () => (
   <h2 className='App-header'>
@@ -97,18 +98,19 @@ function App() {
     <ThemeContext.Provider value={{ color: "green" }}>
       <div className="App">
         <Titulo />
+        <RenderProps />
         <ViaCEP />
         <AssentosOnibus />
         <MeuBotao label={`${labelBotao} !!!`} />
         <Voos />
-        <Lista />
+        {/* {<Lista />
         <Pessoa idade={19} />
         <Pessoa idade={14} />
         <Pessoa idade={9} />
         <article>
           <h2>Subtitulo</h2>
           <p>abcd abcd abcd abcd abcd </p>
-        </article>
+        </article>} */}
 
       </div>
     </ThemeContext.Provider>
