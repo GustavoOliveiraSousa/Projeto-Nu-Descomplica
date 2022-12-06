@@ -1,9 +1,10 @@
-import React, { createContext } from 'react';
+import React, { createContext, useState } from 'react';
 import './App.css';
 import Voos from './Voos';
 import { AssentosOnibus } from './AssentosOnibus';
 import { ViaCEP } from './ViaCEP';
 import { RenderProps } from './Renderprops';
+import { Fonts } from './Fontes';
 
 const Titulo = () => (
   <h2 className='App-header'>
@@ -92,13 +93,15 @@ const Lista = () => {
 export const ThemeContext = createContext({});
 
 function App() {
+  const [font, setFont] = useState('arial')
 
   const labelBotao = 'Entre aqui!'
   return (
-    <ThemeContext.Provider value={{ color: "green" }}>
+    <ThemeContext.Provider value={{ color: "green", font, setFont }}>
       <div className="App">
         <Titulo />
         <RenderProps />
+        <Fonts />
         <ViaCEP />
         <AssentosOnibus />
         <MeuBotao label={`${labelBotao} !!!`} />

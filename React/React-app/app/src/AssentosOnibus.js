@@ -26,7 +26,7 @@ const Assento = (props) => {
                     type="button"
                     disabled={disabled}
                     onClick={() => handleClick()}>
-                    {disabled ? 'X' : <span style={{ color: value.color }}>{props.pos}</span>}
+                    {disabled ? 'X' : <span style={{ color: value.color, fontFamily: value.font }}>{props.pos}</span>}
                 </button>
             )}
 

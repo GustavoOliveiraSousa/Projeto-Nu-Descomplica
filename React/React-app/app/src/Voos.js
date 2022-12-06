@@ -53,7 +53,7 @@ function ItemVooDetails(props) {
             {(value) => (
                 <ul>
                     {props.details.map(details => (
-                        <li key={details.id} style={{ color: value.color }}>{details.title}</li>
+                        <li key={details.id} style={{ color: value.color, fontFamily: value.font }}>{details.title}</li>
                     ))}
                 </ul>
             )}
