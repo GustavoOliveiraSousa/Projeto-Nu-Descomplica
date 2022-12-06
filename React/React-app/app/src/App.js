@@ -93,22 +93,25 @@ const Lista = () => {
 export const ThemeContext = createContext({});
 export const useThemeContext = () => useContext(ThemeContext)
 
+const SettingsContents = createContext({})
+export const useSettingsContents = () => useContext(SettingsContents)
 
 function App() {
   const [font, setFont] = useState('arial')
 
   const labelBotao = 'Entre aqui!'
   return (
-    <ThemeContext.Provider value={{ color: "green", font, setFont }}>
-      <div className="App">
-        <Titulo />
-        <RenderProps />
-        <Fonts />
-        <ViaCEP />
-        <AssentosOnibus />
-        <MeuBotao label={`${labelBotao} !!!`} />
-        <Voos />
-        {/* {<Lista />
+    <SettingsContents.Provider value={{ cepUrlBase: 'https://viacep.com.br' }}>
+      <ThemeContext.Provider value={{ color: "green", font, setFont }}>
+        <div className="App">
+          <Titulo />
+          <RenderProps />
+          <Fonts />
+          <ViaCEP />
+          <AssentosOnibus />
+          <MeuBotao label={`${labelBotao} !!!`} />
+          <Voos />
+          {/* {<Lista />
         <Pessoa idade={19} />
         <Pessoa idade={14} />
         <Pessoa idade={9} />
@@ -116,9 +119,9 @@ function App() {
           <h2>Subtitulo</h2>
           <p>abcd abcd abcd abcd abcd </p>
         </article>} */}
-
-      </div>
-    </ThemeContext.Provider>
+        </div>
+      </ThemeContext.Provider>
+    </SettingsContents.Provider>
   );
 }
 
