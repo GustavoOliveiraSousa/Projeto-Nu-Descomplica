@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useContext } from 'react';
 import './App.css';
 import Voos from './Voos';
 import { AssentosOnibus } from './AssentosOnibus';
@@ -91,6 +91,8 @@ const Lista = () => {
 }
 
 export const ThemeContext = createContext({});
+export const useThemeContext = () => useContext(ThemeContext)
+
 
 function App() {
   const [font, setFont] = useState('arial')

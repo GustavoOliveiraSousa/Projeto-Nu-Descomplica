@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { ThemeContext } from "./App"
+import { useThemeContext } from "./App"
 
 const Assento = (props) => {
     const [disabled, setDisabled] = useState(false)
@@ -18,20 +18,18 @@ const Assento = (props) => {
         }
     }, [disabled])
 
+    const value = useThemeContext()
+
     return (
-        <ThemeContext.Consumer>
-            {(value) => (
-                <button
-                    className="assento"
-                    type="button"
-                    disabled={disabled}
-                    onClick={() => handleClick()}>
-                    {disabled ? 'X' : <span style={{ color: value.color, fontFamily: value.font }}>{props.pos}</span>}
-                </button>
-            )}
 
-        </ThemeContext.Consumer>
-
+        < button
+            className="assento"
+            type="button"
+            disabled={disabled}
+            onClick={() => handleClick()
+            }>
+            {disabled ? 'X' : <span style={{ color: value.color, fontFamily: value.font }}>{props.pos}</span>}
+        </button >
     )
 }
 

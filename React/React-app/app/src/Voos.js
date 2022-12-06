@@ -1,4 +1,5 @@
 import { ThemeContext } from "./App";
+import { useThemeContext } from "./App";
 
 const VoosDisponiveis = [
     {
@@ -48,16 +49,14 @@ const VoosDisponiveis = [
 ];
 
 function ItemVooDetails(props) {
+
+    const value = useThemeContext()
     return (
-        <ThemeContext.Consumer>
-            {(value) => (
-                <ul>
-                    {props.details.map(details => (
-                        <li key={details.id} style={{ color: value.color, fontFamily: value.font }}>{details.title}</li>
-                    ))}
-                </ul>
-            )}
-        </ThemeContext.Consumer>
+        <ul>
+            {props.details.map(details => (
+                <li key={details.id} style={{ color: value.color, fontFamily: value.font }}>{details.title}</li>
+            ))}
+        </ul>
     )
 }
 
