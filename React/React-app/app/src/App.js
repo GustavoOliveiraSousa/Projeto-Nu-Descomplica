@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import './App.css';
 import Voos from './Voos';
 import { AssentosOnibus } from './AssentosOnibus';
@@ -88,26 +88,30 @@ const Lista = () => {
   )
 }
 
+export const ThemeContext = createContext({});
+
 function App() {
 
   const labelBotao = 'Entre aqui!'
   return (
-    <div className="App">
-      <Titulo />
-      <ViaCEP />
-      <AssentosOnibus />
-      <MeuBotao label={`${labelBotao} !!!`} />
-      <Voos />
-      <Lista />
-      <Pessoa idade={19} />
-      <Pessoa idade={14} />
-      <Pessoa idade={9} />
-      <article>
-        <h2>Subtitulo</h2>
-        <p>abcd abcd abcd abcd abcd </p>
-      </article>
+    <ThemeContext.Provider value={{ color: "green" }}>
+      <div className="App">
+        <Titulo />
+        <ViaCEP />
+        <AssentosOnibus />
+        <MeuBotao label={`${labelBotao} !!!`} />
+        <Voos />
+        <Lista />
+        <Pessoa idade={19} />
+        <Pessoa idade={14} />
+        <Pessoa idade={9} />
+        <article>
+          <h2>Subtitulo</h2>
+          <p>abcd abcd abcd abcd abcd </p>
+        </article>
 
-    </div>
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
