@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BsFillCartCheckFill, BsFillCartPlusFill } from 'react-icons/bs'
 import { getItem, setItem } from "../services/LocalStoregeFuncs";
 import { Link } from "react-router-dom";
+import { HeaderStore } from "../Components/Header";
 
 export const Store = () => {
 
@@ -32,7 +33,7 @@ export const Store = () => {
 
     return (
         <div>
-            <Link to='/cart'>Carrinho</Link>
+            <HeaderStore />
             <h1>Store</h1>
             <div>
                 {

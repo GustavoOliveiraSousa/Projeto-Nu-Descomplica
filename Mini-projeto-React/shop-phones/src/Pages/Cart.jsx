@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { getItem, setItem } from "../services/LocalStoregeFuncs";
 import { BsFillCartDashFill } from 'react-icons/bs'
+import '../Cart.css'
+import { Headercart } from "../Components/Header";
 
 export const Cart = () => {
     const [data, setData] = useState(getItem('carrinhoNu') || [])
@@ -14,7 +16,8 @@ export const Cart = () => {
     return (
         <div>
             <h1>cart</h1>
-            <div>
+            <Headercart />
+            <div className="ProductArea">
                 {
                     data.map((e) => (
                         <div key={e.id}>
