@@ -13,10 +13,13 @@ export const Cart = () => {
         setItem('carrinhoNu', arrFilter)
     }
 
+    const subTotal = data.reduce((acc, cur) => acc + cur.price, 0)
+
     return (
         <div>
             <h1>cart</h1>
             <Headercart />
+            <h3>{`Subtotal: R$ ${subTotal}`}</h3>
             <div className="ProductArea">
                 {
                     data.map((e) => (
