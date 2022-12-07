@@ -5,6 +5,7 @@ import { AssentosOnibus } from './AssentosOnibus';
 import { ViaCEP } from './ViaCEP';
 import { RenderProps } from './Renderprops';
 import { Fonts } from './Fontes';
+import { Formulario } from './Formulario';
 
 const Titulo = () => (
   <h2 className='App-header'>
@@ -105,6 +106,7 @@ function App() {
       <ThemeContext.Provider value={{ color: "green", font, setFont }}>
         <div className="App">
           <Titulo />
+          <Formulario />
           <RenderProps />
           <Fonts />
           <ViaCEP />
