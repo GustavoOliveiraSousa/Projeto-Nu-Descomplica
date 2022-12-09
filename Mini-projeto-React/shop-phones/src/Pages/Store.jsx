@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BsFillCartCheckFill, BsFillCartPlusFill } from 'react-icons/bs'
 import { getItem, setItem } from "../services/LocalStoregeFuncs";
-import { Link } from "react-router-dom";
 import { HeaderStore } from "../Components/Header";
 
 export const Store = () => {
@@ -40,7 +39,7 @@ export const Store = () => {
                     data.map((e) => (
                         <div key={e.id}>
                             <h4>{e.title}</h4>
-                            <img src={e.thumbnail} />
+                            <img alt="" src={e.thumbnail} />
                             <h4>{e.price}</h4>
                             <button
                                 onClick={() => handleClick(e)}>

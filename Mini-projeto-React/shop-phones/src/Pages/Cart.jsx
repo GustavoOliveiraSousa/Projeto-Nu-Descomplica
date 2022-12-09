@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { getItem, setItem } from "../services/LocalStoregeFuncs";
 import { BsFillCartDashFill } from 'react-icons/bs'
-import '../Cart.css'
+import '../styles/Style.css'
 import { Headercart } from "../Components/Header";
 
 export const Cart = () => {
     const [data, setData] = useState(getItem('carrinhoNu') || [])
 
     const removeItem = (obj) => {
-        const arrFilter = data.filter((e) => e.id != obj.id)
+        const arrFilter = data.filter((e) => e.id !== obj.id)
         setData(arrFilter)
         setItem('carrinhoNu', arrFilter)
     }
@@ -16,20 +16,19 @@ export const Cart = () => {
     const subTotal = data.reduce((acc, cur) => acc + cur.price, 0)
 
     return (
-        <div>
-            <h1>cart</h1>
+        <div className="Body">
             <Headercart />
-            <h3>{`Subtotal: R$ ${subTotal}`}</h3>
-            <div className="ProductArea">
+            <h1 className="NomeCarrinho">Carrinho</h1>
+            <h3 className="Subtotal" id="subtotal">{`Total R$ ${subTotal}`}</h3>
+            <div className="Produtos">
                 {
                     data.map((e) => (
-                        <div key={e.id}>
-                            <h4>{e.title}</h4>
-                            <h4>{e.price}</h4>
-                            <img src={e.thumbnail} />
-                            <h4>{e.title}</h4>
-                            <button onClick={() => removeItem(e)}>
-                                <BsFillCartDashFill />
+                        <div className="ProdutosBody" key={e.id}>
+                            <h4 className="Titulo">{e.title}</h4>
+                            <h4 className="Preco">{`R$ ${e.price}`}</h4>
+                            <img className="Imagem" alt="." src={e.thumbnail} />
+                            <button className="Botao" onClick={() => removeItem(e)}>
+                                <BsFillCartDashFill className="BotaoInterno" />
                             </button>
                         </div>
                     ))
@@ -37,4 +36,5 @@ export const Cart = () => {
             </div>
         </div>
     )
+
 }

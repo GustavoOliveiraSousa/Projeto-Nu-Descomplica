@@ -1,20 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "../styles/Style.css"
 
 export const HeaderStore = () => {
     return (
-        <div>
-            <Link to={'/'}>Loja</Link>
-            <Link to={'/cart'}>Carrinho</Link>
+        <div className="Header">
+            <Link to={'/'} className="Loja">Loja</Link>
+            <Link to={'/cart'} className="Carrinho">Carrinho</Link>
         </div>
     )
 }
 
 export const Headercart = () => {
     return (
-        <div>
-            <Link to={'/'}>Loja</Link>
-        </div>
+        <div className="Header">
+            < Link to={'/'} className="Loja" >Loja</Link >
+        </div >
     )
 }

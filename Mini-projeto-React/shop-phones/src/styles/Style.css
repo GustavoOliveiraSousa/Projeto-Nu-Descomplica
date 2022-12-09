@@ -1,0 +1,71 @@
+Html {
+    background-color: #EBEBEB;
+    font-family: sans-serif;
+}
+
+.Header {
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Loja,
+.Carrinho {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+
+}
+
+.NomeCarrinho {
+    font-weight: 500;
+}
+
+.Produtos {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Produtos .ProdutosBody {
+    min-height: 300px;
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Titulo {
+    height: 15vh;
+    max-height: 15vh;
+}
+
+.Preco {
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+.Imagem {
+    width: 75%;
+    margin-bottom: 25px;
+}
+
+
+.Botao {
+    width: 75%;
+    height: 75%;
+}
+
+.BotaoInterno {
+    width: 50%;
+    height: 50%;
+}
