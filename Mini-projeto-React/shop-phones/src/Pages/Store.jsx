@@ -3,6 +3,8 @@ import { BsFillCartCheckFill, BsFillCartPlusFill } from 'react-icons/bs'
 import { getItem, setItem } from "../services/LocalStoregeFuncs";
 import { HeaderStore } from "../Components/Header";
 
+import '../styles/Style.css'
+
 export const Store = () => {
 
     const [data, setData] = useState([])
@@ -34,17 +36,17 @@ export const Store = () => {
         <div>
             <HeaderStore />
             <h1>Store</h1>
-            <div>
+            <div className="S-Produto">
                 {
                     data.map((e) => (
-                        <div key={e.id}>
-                            <h4>{e.title}</h4>
-                            <img alt="" src={e.thumbnail} />
-                            <h4>{e.price}</h4>
-                            <button
+                        <div className="S-ProdutoBody" key={e.id}>
+                            <h4 className="S-Titulo">{e.title}</h4>
+                            <img className="S-Imagem" alt="" src={e.thumbnail} />
+                            <h4 className="S-Preco">{e.price}</h4>
+                            <button className="S-Botao"
                                 onClick={() => handleClick(e)}>
                                 {
-                                    cart.some((itemCart) => itemCart.id === e.id) ? (<BsFillCartCheckFill />) : (<BsFillCartPlusFill />)
+                                    cart.some((itemCart) => itemCart.id === e.id) ? (<BsFillCartCheckFill className="S-BotaoInternoOK" />) : (<BsFillCartPlusFill className="S-BotaoInternoADD" />)
                                 }
                             </button>
                         </div>

@@ -5,8 +5,8 @@ import "../styles/Style.css"
 export const HeaderStore = () => {
     return (
         <div className="Header">
-            <Link to={'/'} className="Loja">Loja</Link>
-            <Link to={'/cart'} className="Carrinho">Carrinho</Link>
+            <Link to={'/'} className="H-Loja">Loja</Link>
+            <Link to={'/cart'} className="H-Carrinho">Carrinho</Link>
         </div>
     )
 }
@@ -14,7 +14,7 @@ export const HeaderStore = () => {
 export const Headercart = () => {
     return (
         <div className="Header">
-            < Link to={'/'} className="Loja" >Loja</Link >
+            < Link to={'/'} className="H-Loja" >Loja</Link >
         </div >
     )
 }

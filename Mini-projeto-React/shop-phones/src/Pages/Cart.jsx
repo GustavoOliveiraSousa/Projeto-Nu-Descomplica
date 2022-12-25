@@ -18,17 +18,17 @@ export const Cart = () => {
     return (
         <div className="Body">
             <Headercart />
-            <h1 className="NomeCarrinho">Carrinho</h1>
-            <h3 className="Subtotal" id="subtotal">{`Total R$ ${subTotal}`}</h3>
-            <div className="Produtos">
+            <h1 className="C-NomeCarrinho">Carrinho</h1>
+            <h3 className="C-Subtotal" id="subtotal">{`Total R$ ${subTotal}`}</h3>
+            <div className="C-Produto">
                 {
                     data.map((e) => (
-                        <div className="ProdutosBody" key={e.id}>
-                            <h4 className="Titulo">{e.title}</h4>
-                            <h4 className="Preco">{`R$ ${e.price}`}</h4>
-                            <img className="Imagem" alt="." src={e.thumbnail} />
-                            <button className="Botao" onClick={() => removeItem(e)}>
-                                <BsFillCartDashFill className="BotaoInterno" />
+                        <div className="C-ProdutoBody" key={e.id}>
+                            <h4 className="C-Titulo">{e.title}</h4>
+                            <h4 className="C-Preco">{`R$ ${e.price}`}</h4>
+                            <img className="C-Imagem" alt="." src={e.thumbnail} />
+                            <button className="C-Botao" onClick={() => removeItem(e)}>
+                                <BsFillCartDashFill className="C-BotaoInterno" />
                             </button>
                         </div>
                     ))
