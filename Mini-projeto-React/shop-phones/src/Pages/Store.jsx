@@ -3,6 +3,7 @@ import { BsFillCartCheckFill, BsFillCartPlusFill } from 'react-icons/bs'
 import { getItem, setItem } from "../services/LocalStoregeFuncs";
 import { HeaderStore } from "../Components/Header";
 
+import UINumber from "../UNNumber";
 import '../styles/Style.css'
 
 export const Store = () => {
@@ -42,7 +43,7 @@ export const Store = () => {
                         <div className="S-ProdutoBody" key={e.id}>
                             <h4 className="S-Titulo">{e.title}</h4>
                             <img className="S-Imagem" alt="" src={e.thumbnail} />
-                            <h4 className="S-Preco">{e.price}</h4>
+                            <UINumber className="S-Preco">{e.price}</UINumber>
                             <button className="S-Botao"
                                 onClick={() => handleClick(e)}>
                                 {
